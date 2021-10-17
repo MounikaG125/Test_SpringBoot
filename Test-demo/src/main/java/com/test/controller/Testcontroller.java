@@ -27,4 +27,8 @@ public class Testcontroller {
 		return "Employee name:"+e.geteName()+"  Employee Id:"+e.geteId();
 		
 	}
+	public String accessTest(@RequestBody Employee e) {
+		return "Employee name:"+e.geteName()+"  Employee Id:"+e.geteId();
+		
+	}
 }
